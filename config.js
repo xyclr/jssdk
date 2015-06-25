@@ -2,7 +2,7 @@ module.exports = function() {
     // 输入你的配置
     return {
         appId: 'wxd8ffa8619684a575',
-        appSecret: '01HCbOCSsPxYbFFlOzSUAGZBIyEK5jYUn19g6H6psci',
+        appSecret: 'fbc86cc56ed5b0cad530ac2317e7933f',
         appToken: 'weixin'
     };
 };

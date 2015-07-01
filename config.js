@@ -1,8 +1,8 @@
 module.exports = function() {
     // 输入你的配置
     return {
-        appId: 'wxd8ffa8619684a575',
-        appSecret: 'fbc86cc56ed5b0cad530ac2317e7933f',
+        appId: 'wxc5709f2ac2454001',
+        appSecret: 'c6d27018801ac6e11698825a77dabe4d',
         appToken: 'weixinjk'
     };
 };

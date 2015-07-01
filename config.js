@@ -3,6 +3,6 @@ module.exports = function() {
     return {
         appId: 'wxc5709f2ac2454001',
         appSecret: 'c6d27018801ac6e11698825a77dabe4d',
-        appToken: 'weixinjk'
+        appToken: 'a23mnE1mgJvN2E7PEMgJg4Z37JZL4Eww'
     };
 };

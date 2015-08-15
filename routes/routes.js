@@ -20,14 +20,14 @@ function fun(req, res) {
 
 function getSignature(req, res) {
     var url = req.body.url;
-    console.log("url:"url);
+    console.log("url:"+url);
     createSignature(url, function(error, result) {
         if (error) {
             res.json({
                 'error': error
             });
         } else {
-            res.json("createSignature result:"result);
+            res.json("createSignature result:"+result);
         }
     });
 }

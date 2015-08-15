@@ -13,21 +13,21 @@ module.exports = function(app) {
 function fun(req, res) {
     var u = req.protocol + "://" + req.get('Host') + req.url;
     createSignature(u, function(error, result) {
-        console.log(result);
+        console.log("test.html:"result);
         res.render('../public/test.html', result);
     });
 }
 
 function getSignature(req, res) {
     var url = req.body.url;
-    console.log(url);
+    console.log("url:"url);
     createSignature(url, function(error, result) {
         if (error) {
             res.json({
                 'error': error
             });
         } else {
-            res.json(result);
+            res.json("createSignature result:"result);
         }
     });
 }

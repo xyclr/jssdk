@@ -7,7 +7,7 @@ var createSignature = signature.getSignature(config);
 
 module.exports = function(app) {
     app.post('/getsignature', getSignature);
-    app.get('/test', fun);
+    app.get('/', fun);
 };
 
 function fun(req, res) {

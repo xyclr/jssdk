@@ -13,6 +13,7 @@ module.exports = function(app) {
 function fun(req, res) {
     var u = req.protocol + "://" + req.get('Host') + req.url;
     createSignature(u, function(error, result) {
+        console.info("render-result:");
         console.log(result);
         res.render('../public/test.html', result);
     });
@@ -27,6 +28,7 @@ function getSignature(req, res) {
                 'error': error
             });
         } else {
+            console.info("createSignature-result:");
             res.json(result);
         }
     });

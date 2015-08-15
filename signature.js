@@ -14,6 +14,8 @@ var cache = {
 
 function getSignature(config, url, cb) {
     console.log('start getSignature');
+    console.info("cache:");
+    console.info(cache);
     // 判断内存中是否有缓存
     if (!cache || !cache.ticket) {
         console.log('readCache');

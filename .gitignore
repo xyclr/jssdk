@@ -49,4 +49,5 @@ Temporary Items
 .git
 .idea
 .zip
+.node_modules
 upload.bat

@@ -42,7 +42,6 @@ function checkSignature(config) {
             return next();
         }
 
-
         if (!req.query.signature) {
             return res.end('Access Denied!');
         }

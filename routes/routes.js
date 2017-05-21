@@ -15,7 +15,7 @@ function fun(req, res) {
     createSignature(u, function(error, result) {
         console.info("render-result:");
         console.log(result);
-        res.render('../public/test.html', result);
+        res.render('../static/test.html', result);
     });
 }
 

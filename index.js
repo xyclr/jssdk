@@ -22,7 +22,7 @@ app.configure(function() {
     app.use(express.bodyParser());
     app.use(express.methodOverride());
     app.use(app.router);
-    app.use(express.static(path.join(__dirname, 'public')));
+    app.use(express.static(path.join(__dirname, 'static')));
 
     // user
     // 这是用来 在接口配置信息 中验证的; 仅仅使用 JS-SDK 不需要使用;

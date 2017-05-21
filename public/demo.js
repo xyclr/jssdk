@@ -29,8 +29,8 @@ wx.ready(function () {
     wx.onMenuShareAppMessage({
       title: '互联网之子',
       desc: '在长大的过程中，我才慢慢发现，我身边的所有事，别人跟我说的所有事，那些所谓本来如此，注定如此的事，它们其实没有非得如此，事情是可以改变的。更重要的是，有些事既然错了，那就该做出改变。',
-      link: 'http://movie.douban.com/subject/25785114/',
-      imgUrl: 'http://img3.douban.com/view/movie_poster_cover/spst/public/p2166127561.jpg',
+      link: 'http://www.cnblogs.com/chinareny2k/archive/2010/01/05/1639468.html',
+      imgUrl: 'http://images2015.cnblogs.com/blog/417688/201701/417688-20170114183724510-1209792728.png',
       trigger: function (res) {
         alert('用户点击发送给朋友');
       },
@@ -51,8 +51,9 @@ wx.ready(function () {
   document.querySelector('#onMenuShareTimeline').onclick = function () {
     wx.onMenuShareTimeline({
       title: '互联网之子',
-      link: 'http://movie.douban.com/subject/25785114/',
-      imgUrl: 'http://img3.douban.com/view/movie_poster_cover/spst/public/p2166127561.jpg',
+      desc: '在长大的过程中，我才慢慢发现，我身边的所有事，别人跟我说的所有事，那些所谓本来如此，注定如此的事，它们其实没有非得如此，事情是可以改变的。更重要的是，有些事既然错了，那就该做出改变。',
+      link: 'http://www.cnblogs.com/chinareny2k/archive/2010/01/05/1639468.html',
+      imgUrl: 'http://images2015.cnblogs.com/blog/417688/201701/417688-20170114183724510-1209792728.png',
       trigger: function (res) {
         alert('用户点击分享到朋友圈');
       },
@@ -72,10 +73,10 @@ wx.ready(function () {
   // 2.3 监听“分享到QQ”按钮点击、自定义分享内容及分享结果接口
   document.querySelector('#onMenuShareQQ').onclick = function () {
     wx.onMenuShareQQ({
-      title: '互联网之子',
+     title: '互联网之子',
       desc: '在长大的过程中，我才慢慢发现，我身边的所有事，别人跟我说的所有事，那些所谓本来如此，注定如此的事，它们其实没有非得如此，事情是可以改变的。更重要的是，有些事既然错了，那就该做出改变。',
-      link: 'http://movie.douban.com/subject/25785114/',
-      imgUrl: 'http://img3.douban.com/view/movie_poster_cover/spst/public/p2166127561.jpg',
+      link: 'http://www.cnblogs.com/chinareny2k/archive/2010/01/05/1639468.html',
+      imgUrl: 'http://images2015.cnblogs.com/blog/417688/201701/417688-20170114183724510-1209792728.png',
       trigger: function (res) {
         alert('用户点击分享到QQ');
       },
@@ -98,10 +99,10 @@ wx.ready(function () {
   // 2.4 监听“分享到微博”按钮点击、自定义分享内容及分享结果接口
   document.querySelector('#onMenuShareWeibo').onclick = function () {
     wx.onMenuShareWeibo({
-      title: '互联网之子',
+    title: '互联网之子',
       desc: '在长大的过程中，我才慢慢发现，我身边的所有事，别人跟我说的所有事，那些所谓本来如此，注定如此的事，它们其实没有非得如此，事情是可以改变的。更重要的是，有些事既然错了，那就该做出改变。',
-      link: 'http://movie.douban.com/subject/25785114/',
-      imgUrl: 'http://img3.douban.com/view/movie_poster_cover/spst/public/p2166127561.jpg',
+      link: 'http://www.cnblogs.com/chinareny2k/archive/2010/01/05/1639468.html',
+      imgUrl: 'http://images2015.cnblogs.com/blog/417688/201701/417688-20170114183724510-1209792728.png',
       trigger: function (res) {
         alert('用户点击分享到微博');
       },
